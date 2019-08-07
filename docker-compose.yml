@@ -15,5 +15,8 @@ services:
   web:
     build: web
     image: dockersamples/k8s-wordsmith-web
+    depends_on:
+      - db
+      - words
     ports:
-     - "8080:80"
+     - "80"
