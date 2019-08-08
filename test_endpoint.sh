@@ -12,5 +12,6 @@ if [ "$test_endpoint" == "200" ];
 then
    echo "OK";
 else
-   echo "KO";
+   echo "error";
+   echo $test_endpoint;
 fi
