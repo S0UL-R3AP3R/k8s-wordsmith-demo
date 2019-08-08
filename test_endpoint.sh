@@ -11,6 +11,7 @@ test_endpoint=`curl -sL \
 if [ "$test_endpoint" == "200" ];
 then
    echo "OK"
+   exit 0
 else
    echo "Error"
    exit 1
