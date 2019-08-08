@@ -13,5 +13,4 @@ then
    echo "OK";
 else
    echo "KO";
-   exit 1;
 fi
