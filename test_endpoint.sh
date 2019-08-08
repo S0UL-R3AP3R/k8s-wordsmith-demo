@@ -8,7 +8,7 @@ test_endpoint='curl -sL \
     --connect-timeout 3 \
     --max-time 5'
 
-if [ "$(test_endpoint)" == "200" ];
+if [ "$test_endpoint" == "200" ];
 then
    echo "OK";
 else
