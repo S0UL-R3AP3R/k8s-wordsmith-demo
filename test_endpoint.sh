@@ -3,7 +3,7 @@
 #
 test_endpoint=`curl -sL \
     -w "%{http_code}\\n" \
-    "http://104.197.78.52:8081/" \
+    "http://http://35.192.142.199:8081//" \
     -o /dev/null \
     --connect-timeout 3 \
     --max-time 5`
